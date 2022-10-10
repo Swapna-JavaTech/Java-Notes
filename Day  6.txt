@@ -1,0 +1,163 @@
+Exception Handling is important to continue program execution after an exception caught and handled.
+The execution of program does not terminate when an exception occurs
+once the exception is resolved then program execution continues till complete
+
+Exceptional Handling is important because to main the normal and expected flow of the
+program when some unwanted events occur.
+If not programs may crash or requests may fail.
+
+
+Creating CustomExceptions in java
+=============================
+Rules for Java Exception
+====================
+The user-defined exception class should extend the Exception class
+
+
+When we create CustomExceptions whether it is RuntimeException or compiletimeException?
+compiletimeException when extending the Exception class
+RuntimeException should extend the RuntimeException class
+
+
+ArrayofObjects and Exceptions Practice
+===================================
+Write a Java program to create product class with productId,productName,productPrice,productCategory
+and create an array of products
+search for a product by accepting productid from user if not found throw an exception called
+ProductNotFoundException
+If already product id exists throw an exception called ProductId already exists
+
+
+Annotations
+==========
+Annotations are metadata sent to compiler.
+
+There are five types :
+
+1. Marker Annotations 
+======================
+To mark a declaration.do  not contain any data or any members
+Example:
+========
+@Override => is used to mark a method that it is overriden from interface or abstract class or super class
+,@Test => a method declared using this annotation is considered test case
+
+2. Single Value Annotations
+==========================
+This annotation contains only one member.They allow short hand for specifying value of a member
+@Test("testingAddition")
+@Entity(Tablename = "Student")
+
+3. Full Annotations
+================
+Annotations which consist of multiple data members or names,values etc.,
+Example:
+========
+@Column(columnname = "studentId" , nullable = false)
+
+4. Type Annotations
+==================
+type annotation can be applicable in any place in the class.
+@Target annotation can be used for declaring where we can use this annotation
+
+5. Repeating Annotations
+=====================
+@Repeatable annotation is an example which contains an array of the field
+
+
+Rules for while using annotations
+==================================
+1. annotations are not terminated by ;
+2. annotations startswith @
+3. annotations names are like class names in java
+4. annotations are applied on class or method etc., during RUNTIME or Compile time or Source etc.,
+
+Annotations are defined in java.lang package
+
+We can create our own annotation in java
+
+StandardAnnotationsInJava used in java code
+======================================
+@Override
+@Deprecated
+@Suppresswarning
+
+StandardAnnotationsInJava used in another annotations
+==============================================
+@Target
+@Documented
+@Inherited
+
+Benefits of Annotation
+======================
+instructions to compiler
+@Retention(value=RUNTIME/SOURCE/CLASS)
+
+Points to be noted while creating custom annotation
+===========================================
+1. we should use @ before interface keyword to define an custom annotation
+2. we can specify default if value is not provided then it considers default value
+
+
+Practice program
+==============
+Create an annotation with the same checksalary
+apply it on the getsalary method of EMployee
+
+
+Collections in Java
+================
+Array in Java is static in size
+means
+
+int[] a = new int[10];
+
+int 4 bytes  => 95 * 4 = 389 bytes are wasted
+
+and stored only 5 values 100 bytes
+
+Collections are useful for creating dynamic data structures to store objects and delete objects or modify the objects
+Collections in java allocates the memory for objects dynamically
+
+Collection is an Interface
+=====================
+List => ArrayList,Vector,LinkedList
+Set => HashSet,LinkedHashSet
+SortedSet => TreeSet
+Queue => PriorityQueue 
+
+Map interface =>HashMap,HashTable,LinkedHashMap
+SortedMap => TreeMap
+
+The above Classes and interfaces are defined in java.util package
+
+Collections are used to store any and only objects .
+Collections are not allowed to store primitive data types
+
+ ArrayList
+========
+ArrayList is dynamic array to store and manipulate objects 
+ArrayList internally uses array
+ArrayList  allows duplicate objects/values can be
+
+ArrayList Default capacity is 10
+
+int newCapacity = (oldCapacity *3)/2 + 1 in Java 6
+it increases by 50% of oldcapacity from Java 7
+int newCapacity = oldCapacity + (oldCapacity >> 1) in java 7
+
+add(objectName) => to add objects in to ArrayList
+remove(objectName) => to remove objects from the ArrayList
+
+when only one or two objects are removed it will shift the remaining objects to fill the gaps
+
+
+
+
+
+
+
+
+
+
+
