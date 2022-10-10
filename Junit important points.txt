@@ -1,0 +1,78 @@
+canteen management system
+======================
+
+Items
+Customers
+Vendors
+
+Customer Can Place Order
+===================
+qty of item is < qty of item ordered
+
+it should reject the order
+
+required qty is not available
+
+qty of item is >= qty of item ordered
+
+it should accept the order
+
+STLC(Software Testing Life Cycle)
+
+gives quality feedback
+
+Quality Analysis is measure using STLC
+
+Numbers of lines code 350000 (25000)
+
+Correctness of the application/software by considering following attributes
+
+Scalability
+Reliability
+Portability
+Re-Usability
+Usability
+
+
+Security Testing
+============
+SonarQube(deny unauthorised user)
+
+Junit
+====
+org.junit 
+
+Erich Gamma
+
+Open Source Testing Framework that a programmer can test his/her own code
+
+Latest version of JUnit is JUnit5
+
+org.junit  package contains all interfaces,classes and methods for writing test cases using junit
+
+
+Write a java program to write arithmetic operations using methods
+and test the methods using junit
+add => addTest
+sub => subTest
+mul => mulTest
+div => divTest
+mod => modTest
+
+use assertEquals,AssertNotEquals,AssertSame and AssertNotSame
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+CSS => Cascading Style Sheet
+
+CSS3
+
+1994 => Hakon Wium Lie
+ Lie and Tim Berners Lee 
+
+SGML => CSS
+
+CSS can be applied in HTML Pages in 3 ways
+
+1. internal CSS => using style tag
+2. Inline CSS => style attribute is used to apply inline styling
+3.External CSS => using a separate css file (preferred way)
+
+
+DOM(Document Object Model)
+======================
+
+identifiers in CSS and HTML and JS
+============================
+id attribute to define a unique name for an element among group of elements
+
+selectors in CSS
+=================
+tag selector => global selector => all tags will selected to apply the style defined using tag selector
+id selector => custom selector => among n-tags of same type a specfic style can be applied for a tag using id selector
+class selector => group selector => group of tags  can be applied with a style using class selector
+
+HTML => Skeleton (How the structure of data should be displayed on the browser)
+CSS => muscle and skin tone (colors,font,background etc)
+JS => motion of the body(Dynamic web Pages)
+
+
+CSS Box Model
+============
+Margin
+border
+padding
+
+
+div tag
+=====
+
+
+JS
+===
+JavaScript is used for writing client side validations
+Scripting language to make HTML pages respond dynamically
+
+JS
+==
+if
+do-while
+while
+for
+
+JS similar to python in the case of datatypes
+
+Keywords In JS
+============
+var
+function
+let
+private
+protected
+public
+new
+this
+null
+undefined etc.,
+
+
+JS in HTML
+========
+Script tag  => Internal Java Script
+JS file => External JavaScript
+tag => inline JavaScript
+
+JS also follows Document Object Model
+
+PrintStatements/Output Statements
+==========================
+alert
+writeln
+write
+console.log
+prompt
+confirm
+
+alert statements
+============
+alert
+prompt
+confirm
+
+JS Events
+=======
+Event is an action performed on the HTML element like
+
+onClick
+onKeyPress
+onKeyRelease
+onMouseOver
+etc.,
+
+Script tag can be placed either in head or body or both 
+
+JS Functions
+==========
+Like methods in Java and function in python JS also have functions which can be declared using function keyword.
+A block of code enclosed under a name using function keyword to perform a particular task
+Function is executed when we call the function
+
+JS Identifiers
+==========
+All rules of Java Identifiers are applicable for JavaScript Identifiers like variablename,functionname ,class name ,method name,constant name etc.,
+
+
+LiveScript is the previous for JavaScript
+ECMA Standards(European Computers Manfacturer Association)
+ECMA Script 6  is the latest standard in JS
+
+What ever you are entering in the browser it is a text(string) 
+
+Array
+====
+var list = new Array();
+const characters = ['A','B','C','D'];
+
+
+Strings
+Number
+Date
+Math
+Random
+Boolean
+
+Write a JS program to find duplicate words in the given string?
+Write a JS program to find characters repeated for twice in an array?
+
+
+file:///D:/Hexaware2021/FullStackDigital/HTML%20CSS%20JS%20Examples/RegisterForVaccine.html?gender=Female&dob=2011-06-24&email=swapnajr.3%40gmail.com&aadhar=CSS+Introduction.txt&terms=terms
+
+file:///D:/Hexaware2021/FullStackDigital/HTML%20CSS%20JS%20Examples/RegisterForVaccine.html?dob=&email=&aadhar=
