@@ -1,0 +1,65 @@
+Maven
+======
+Maven is powerful build tool for java projects
+you can actually build projects using java or other languages using Maven
+Maven is developed in java
+Maven is build by apache organization
+
+What is build tool?
+================
+when we develop an applicaton there will be many activities
+
+Generating Source Code
+Generating Documentation from the source code
+Compiling the Source Code
+Packing the compiled code into JAR or WAR files
+Installing/deploying the packaged code on a server or somewhere else in client place
+etc.,
+
+The advantage of using build tool is automating the process of building an application that minimize human errors.
+Application can be built faster than a manually performing all steps.
+
+Maven can be used for building around 3000+ archetypes(templates).
+
+we can use any of these templates for building different kind of projects
+
+Example
+=======
+org.apache.maven.quickstart => for developing an simple java project
+org.apache.maven.webapp => for developing web based applications 
+etc., 
+
+java.util
+java.lang
+java.io
+java.sql etc.,
+
+
+What is XML?
+===========
+Extended Markup Language like HTML it also contains tags
+using xml we can create our own tags
+for every opening tag there will be closing tag
+Tags in XML are case sensitive
+
+Example
+=======
+  <Swapna>
+         <city>Bangalore</city>
+         <country>India</country>
+  </Swapna>
+
+Pom.xml file is brain of the maven project where we can define dependencies and manipulate them according to the requirement
+
+Maven downloads dependencies from three types of repositories
+
+Central Repository => Internet => https://mvnrepository.com/
+
+Remote Repository(Company Server) => Remote Server => configuration of this server will be done by maven admin or
+				you will get list of instructions from client
+
+local Repository => local machine under C:\Users\<laptop name>\.m2
+
+
+
+ 
