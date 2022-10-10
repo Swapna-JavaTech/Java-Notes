@@ -1,0 +1,42 @@
+Summarizing the  commands discussed yesterday
+=======================================
+linux commands
+=============
+ls 
+ls -a
+
+to list all the files in the pwd
+
+touch to create a new file
+cat to display the contents of a file
+           create a file and add the content to a file
+mkdir to create a directory
+cd to change the directory
+
+vi editor => screen oriented text editor
+
+HEAD refers to current commit you are viewing or
+HEAD in GIT is the pointer to the current branch
+
+git revert
+
+========
+
+
+rollbacks to previous commits
+
+
+git pull =  git merge +  git fetch
+
+git fetch => updates from the remote repository
+
+along with the updates from master it also get the updates from remote branches to local directory
+
+
+
+User name
+swapna.mori@gmail.com-at-781208356300 
+Password
+oaOCwio+J18BgtmxZJIYdhnK8Xqu7Q8gD47Nws5cIH0= 
+
+n_I@Nhp-Pj!-zs'

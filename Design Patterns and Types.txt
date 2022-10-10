@@ -1,0 +1,108 @@
+What is Design Pattern?
+A template to solve recurring problems while developing an application
+or
+A guide to solve repeated problems while developing an application
+
+In 1994, Gang of Four(GoF) (Richard ,Erich,Johnson,John) => Design Patterns => Elements of Reusable Object-Oriented Software which launched the concept of Design Pattern in Software design.
+
+Why do we need design patterns?
+
+it helps to solve problems during project development while helping us to fix
+
+performance (or) memory related issues can be fixed in less time
+number of bugs or challenges while developing an application can be minimal
+
+Advantages of using Design Patterns:
+===============================
+1) finding solution for a complex problem
+2) code can be loosely coupled
+3) Reduces application development time
+4) Refactoring of the cod is easy(changing the code or adding the new code to the existing project)
+5) Resuable code which reduces the development cost 
+6) Same Pattern can be used for multiple projects
+
+How it is helpful for developer or software professional?
+
+1) better code structure and better communication and saves lots of time during project development
+2) Code Comments and Naming Conventions ,it will be handy to identify the patterns you're using in the project
+3) It will reduce architecture documentation time
+
+
+Design Patterns are divided in to three categories:
+
+1. Creational Design Patterns 
+========================
+the best possible ways for creating objects for specific situations while developing the application.
+
+Following are the different design patterns under this category:
+
+1. Singleton Pattern
+=================
+1. There should be only one instance allowed for a class 
+2. we should allow global point of access to that single instance.
+
+ways to implement Singleton Pattern
+
+1. Private Constructor to restrict instantiation of the class from other classes
+2. private static variable of the sample class that is only instance of the class
+3. public static method that returns the instance of the class,this is the global access poing for the outer world.
+
+
+
+2. Factory Pattern
+===============
+3. Abstract Factory Pattern
+4. Builder Pattern
+5. Prototype Pattern
+================
+
+2. Structural Design Pattern
+=========================
+Which helps us to glue(combine) different pieces of code in a flexible and extensible fashion.
+
+Following are the different design patterns under this category:
+
+Adapter
+Composite
+Bridge
+Decorator
+Facade
+FlyWeight
+Proxy
+
+3. Behavioral Design Pattern
+=========================
+for better interaction between objects,how to interact two object by loosely coupled and helps to extend the code
+easily.
+
+Following are the different design patterns under this category:
+
+ChainOfResponsibility Pattern
+Mediator Pattern
+Template Method Pattern
+Observer Pattern
+Strategy Pattern
+Command Pattern
+State Pattern
+visitor Pattern
+Iterator Pattern
+Interpreter Pattern
+Memento Pattern
+
+
+LOGGER Levels
+================
+SEVERE
+WARNING
+INFO
+CONFIG
+FINE
+FINER
+FINEST
+
+
+
+
+
+
+

@@ -1,0 +1,139 @@
+JS
+===
+JavaScript is mostly used for designing the interactive web pages.
+
+Each browser will have a unique JavaScript Engine to parse JS.
+
+chrome => v8
+EDGE => chakra
+Mozilla => Spider monkey etc.,
+
+ECMA => European Computers Manufacturer Association
+
+which provides core functionality
+
+DOM interfaces for interacting with HTML elements on Web pages
+BOM browser API for interacting with web browser
+
+Such as 
+
+Validating the Forms,
+Creating interactive maps 
+animated charts etc.,
+
+JS can modify HTML and CSS dynamically
+
+Node.js is popular server side environment to run js in server
+js can be executed/compiled on browser using its own js engine
+
+Brendan Eich in 1995 ,by Netscape has created the JS
+
+LiveScript => JavaScript
+
+JavaScript => netscape navigator
+Jscript => internet explorer
+
+ECMA in 1997
+
+
+ECMA6 is the latest version (TypeScript ) which is used in writing angular code.
+
+React with Typescript
+
+following the are the output of js
+============================
+Nodejs
+Jquery
+AJAX
+expressjs
+knockoutjs (MVVM)
+vuejs
+angular is js framework
+react is library etc.,
+
+JavaScript is based on functions
+JavaScript is not typed language (no datatypes in js)
+JavaScript supports OOPs like class,object,inheritance etc,
+
+Keywords are there to define variables and functions
+
+
+JS to HTML files
+=============
+1. using inline JS
+2. using internal js
+3. using external js
+
+
+Write an HTML file to accept an number and choice
+
+1) print reverse of the number as output
+2) whether it is even or odd
+3) whether it is prime
+4) whether it is palindrom
+
+Var vs Let vs const
+================
+const = to declare a constant (re-assignment not possible) block scope
+
+arrays,object,predefined objects are  defined as const.
+
+Object
+======
+
+student.id = 123;
+student.name = "Rama";
+student.age = 45;
+student.grade = 'A';
+student.address = "Bangalore";
+
+const student = [ {
+	id = 123,
+	name = "Rama",
+	age = 45,
+	grade = 'A',
+	address = "Bangalore"
+},
+	id = 124,
+	name = "Ram",
+	age = 45,
+	grade = 'A',
+	address = "Hyderabad"
+},
+	id = 125,
+	name = "RamaKrishna",
+	age = 45,
+	grade = 'A',
+	address = "Mumbai"
+}]
+
+Predefined Objects in js with set of methods
+=================
+String
+Object
+Number
+Arrays
+Date
+
+
+let =  to declare a variable with block scope
+var = to declare a variable with global scope
+
+
+Write an HTML file to accept an string and choice
+
+1) print reverse of the string as output
+2) count number of vowels in the given string
+3)divide the string in to array of words
+
+Write an HTML and JS and CSS code for
+
+declaring an array of Items{itemid,itemname,itemprice,itemquantity}
+sort based on itemprice
+and print them in console
+
+
+
+
+
+
